@@ -13,7 +13,6 @@ public class MyCommentGenerator extends DefaultCommentGenerator {
             IntrospectedColumn introspectedColumn) {
         // 添加字段注释.格式 /****/
 
-        StringBuffer sb = new StringBuffer();
         field.addJavaDocLine("/**");
         if (introspectedColumn.getRemarks() != null) {
             field.addJavaDocLine(" * " + introspectedColumn.getRemarks());
