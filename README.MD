@@ -1,4 +1,4 @@
-#####此jar包可以给mybatis DO对象生成数据库对应的注释。
+此jar包可以给mybatis DO对象生成数据库对应的注释。
 使用方式
 
 1.mybatis-generator 插件添加依赖
